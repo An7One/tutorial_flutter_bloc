@@ -1,0 +1,1 @@
+A literal follow-up with the [tutorial](https://bloclibrary.dev/#/flutterinfinitelisttutorial) - [github](https://github.com/felangel/bloc/tree/master/examples/flutter_infinite_list), provided by the <i>BlocLibrary</i>.
