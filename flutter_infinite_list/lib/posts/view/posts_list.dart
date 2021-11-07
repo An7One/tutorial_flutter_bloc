@@ -6,6 +6,7 @@ import 'package:flutter_infinite_list/posts/widget/bottom_loader.dart';
 import 'package:flutter_infinite_list/posts/widget/post_list_item.dart';
 
 class PostsList extends StatefulWidget {
+  const PostsList({Key? key}) : super(key: key);
   @override
   _PostsListState createState() => _PostsListState();
 }
