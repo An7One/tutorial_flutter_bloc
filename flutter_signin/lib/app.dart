@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_signin/authentication/bloc/authentication_bloc.dart';
+import 'package:flutter_signin/page/home/view/page_home.dart';
+import 'package:flutter_signin/page/signin/view/page_signin.dart';
 import 'package:flutter_signin/page/splash/view/page_splash.dart';
 import 'package:user_repository/user_repository.dart';
 
@@ -55,7 +57,7 @@ class _AppViewState extends State<AppView> {
                 break;
               case AuthenticationStatus.unauthenticated:
                 _navigator.pushAndRemoveUntil<void>(
-                    PageSignIn().route(), (route) => false);
+                    PageSignin.route(), (route) => false);
                 break;
               default:
                 break;
